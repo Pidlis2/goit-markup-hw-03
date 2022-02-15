@@ -28,6 +28,7 @@ p {
 }
 a {
   display: block;
+  color: inherit;
 }
 ul,
 ol {
@@ -38,12 +39,9 @@ ol {
   text-decoration: none;
 }
 .list {
-  text-decoration: none;
+  list-style: none;
 }
 
-.active {
-  color: var(--button-accent-color);
-}
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -83,6 +81,7 @@ body {
   font-weight: var(--secondary_font-weight);
   font-size: 26px;
   line-height: 1.19;
+  padding-left: 215px;
 }
 .part_logo {
   color: var(--button-accent-color);
@@ -93,6 +92,9 @@ body {
 /*=========end logo======*/
 
 /*========header=========*/
+.nav-list {
+  display: fle;
+}
 .nav-link {
   color: inherit;
   font-weight: var(--third_font-weight);
@@ -115,10 +117,10 @@ body {
   color: #2196f3;
 }
 
-.
 /*==========end header====*/
 
 /*=========hero===========*/
+
 .hero-section {
   background-color: var(--first-bg-color);
 }
