@@ -81,7 +81,9 @@ body {
   font-weight: var(--secondary_font-weight);
   font-size: 26px;
   line-height: 1.19;
-  padding-left: 215px;
+}
+header .logo {
+  margin-left: 215px;
 }
 .part_logo {
   color: var(--button-accent-color);
@@ -93,10 +95,14 @@ body {
 
 /*========header=========*/
 .nav-list {
-  display: fle;
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .nav-link {
-  color: inherit;
   font-weight: var(--third_font-weight);
   font-size: var(--main_font-size);
   line-height: 1.14;
@@ -104,6 +110,13 @@ body {
 .nav-link:focus,
 .nav-link:hover {
   color: var(--button-accent-color);
+}
+.nav-link:not(:first-child) {
+  margin-left: 50px;
+}
+.contact-inf {
+  display: flex;
+  align-items: center;
 }
 
 .contact-inf-link {
@@ -140,7 +153,7 @@ body {
 
 /*========our work==========*/
 .our-work-description_title {
-  font-weight: var(--secondary_font-size);
+  font-weight: var(--secondary_font-weight);
   font-size: var(--main_font-size);
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -177,6 +190,7 @@ body {
   font-size: var(--main_font-size);
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .contact-inf-item_dark {
   color: rgba(255, 255, 255, 0.6);
@@ -200,7 +214,7 @@ body {
   color: var(--third_color-txt);
 }
 
-.products-card-name {
+.product-card-name {
   font-weight: var(--secondary_font-weight);
   font-size: 18px;
   line-height: 2;
@@ -217,4 +231,7 @@ body {
 header .conteiner {
   display: flex;
   align-items: center;
+}
+header .conteiner:last-child {
+  margin-right: 0;
 }
