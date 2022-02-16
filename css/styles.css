@@ -97,14 +97,14 @@ header .logo {
 .nav-list {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav-link {
   font-weight: var(--third_font-weight);
   font-size: var(--main_font-size);
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-link:focus,
 .nav-link:hover {
