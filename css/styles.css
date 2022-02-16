@@ -97,7 +97,6 @@ header .logo {
 .nav-list {
   display: flex;
   align-items: center;
-  margin-left: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -225,13 +224,11 @@ header .logo {
 }
 
 .conteiner {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
 }
 header .conteiner {
   display: flex;
   align-items: center;
-}
-header .conteiner:last-child {
-  margin-right: 0;
+  background-color: red;
 }
