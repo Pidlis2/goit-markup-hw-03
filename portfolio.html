@@ -24,37 +24,43 @@
 
   <body>
     <header>
-      <a class="logo link" href="./index.html"
-        ><span class="part_logo">Web</span>Studio</a
-      >
+      <div class="container">
+        <a class="logo link" href="./index.html"
+          ><span class="part_logo">Web</span>Studio</a
+        >
 
-      <nav class="nav">
-        <ul class="list">
-          <li><a class="nav-link link" href="./index.html">Студия</a></li>
-          <li>
-            <a class="nav-link link active" href="./portfolio.html"
-              >Портфолио</a
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link active" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contact-inf-list list">
+          <li class="contact-inf-item">
+            <a class="mail-inf-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
-          <li><a class="nav-link link" href="">Контакты</a></li>
+          <li class="contact-inf-item">
+            <a class="tel-inf-link link" href="tel:+380961111111"
+              >+380961111111</a
+            >
+          </li>
         </ul>
-      </nav>
-
-      <ul class="contact-inf list">
-        <li class="contact-inf-item">
-          <a class="contact-inf-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contact-inf-item">
-          <a class="contact-inf-link link" href="tel:+380961111111"
-            >+380961111111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="products-btn-section">
+      <div class="container">
         <ul class="products-buttons-list list">
           <li class="products-buttons-item">
             <button class="products-button" type="button">Все</button>
@@ -72,9 +78,9 @@
             <button class="products-button" type="button">Маркетинг</button>
           </li>
         </ul>
-      </section>
+      </div>
 
-      <section class="products-card-section">
+      <div class="container">
         <h1 class="product-card-title"><!--hidenTitle--></h1>
 
         <ul class="products-card-list list">
@@ -84,62 +90,88 @@
               src="./images/portfolio_img/tehnokryak.jpg"
               alt="технокряк"
             />
-            <h2 class="product-card-name">Технокряк</h2>
-            <p class="product-card-description card-description">Веб-сайт</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Технокряк</h2>
+              <p class="product-card-description card-description">Веб-сайт</p>
+            </div>
           </li>
+
           <li class="products-card-item">
             <img
               class="products-card"
               src="./images/portfolio_img/new_orlean.jpg"
               alt="новый орлеан"
             />
-            <h2 class="product-card-name">Постер New Orlean vs Golden Star</h2>
-            <p class="product-card-description">Дизайн</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">
+                Постер New Orlean vs Golden Star
+              </h2>
+              <p class="product-card-description">Дизайн</p>
+            </div>
           </li>
+
           <li class="products-card-item">
             <img
               class="products-card"
               src="./images/portfolio_img/seafood.jpg"
               alt="ресторан сеафуд"
             />
-            <h2 class="product-card-name">Ресторан Seafood</h2>
-            <p class="product-card-description card-description">Приложение</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Ресторан Seafood</h2>
+              <p class="product-card-description card-description">
+                Приложение
+              </p>
+            </div>
           </li>
+
           <li class="products-card-item">
             <img
               class="products-card"
               src="./images/portfolio_img/prime.jpg"
               alt="Проект Prime"
             />
-            <h2 class="product-card-name">Проект Prime</h2>
-            <p class="product-card-description card-description">Маркетинг</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Проект Prime</h2>
+              <p class="product-card-description card-description">Маркетинг</p>
+            </div>
           </li>
+
           <li class="products-card-item">
             <img
               class="products-card"
               src="./images/portfolio_img/boxes.jpg"
               alt="Проект Boxes"
             />
-            <h2 class="product-card-name">Проект Boxes</h2>
-            <p class="product-card-description card-description">Приложение</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Проект Boxes</h2>
+              <p class="product-card-description card-description">
+                Приложение
+              </p>
+            </div>
           </li>
+
           <li class="products-card-item">
             <img
               class="products-card"
               src="./images/portfolio_img/inspiration.jpg"
               alt="Inspiration has no Borders"
             />
-            <h2 class="product-card-name">Inspiration has no Borders</h2>
-            <p class="product-card-description card-description">Веб-сайт</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Inspiration has no Borders</h2>
+              <p class="product-card-description card-description">Веб-сайт</p>
+            </div>
           </li>
+
           <li class="products-card-item">
             <img
               class="products-card"
               src="./images/portfolio_img/izdanie.jpg"
               alt="Издание Limited Edition"
             />
-            <h2 class="product-card-name">Издание Limited Edition</h2>
-            <p class="product-card-description card-description">Дизайн</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Издание Limited Edition</h2>
+              <p class="product-card-description card-description">Дизайн</p>
+            </div>
           </li>
           <li class="products-card-item">
             <img
@@ -147,8 +179,10 @@
               src="./images/portfolio_img/lab.jpg"
               alt="Проект LAB"
             />
-            <h2 class="product-card-name">Проект LAB</h2>
-            <p class="product-card-description card-description">Маркетинг</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Проект LAB</h2>
+              <p class="product-card-description card-description">Маркетинг</p>
+            </div>
           </li>
           <li class="products-card-item">
             <img
@@ -156,33 +190,39 @@
               src="./images/portfolio_img/growning.jpg"
               alt="Growing Business"
             />
-            <h2 class="product-card-name">Growing Business</h2>
-            <p class="product-card-description card-description">Приложение</p>
+            <div class="product-card-wrap">
+              <h2 class="product-card-name">Growing Business</h2>
+              <p class="product-card-description card-description">
+                Приложение
+              </p>
+            </div>
           </li>
         </ul>
-      </section>
+      </div>
     </main>
 
     <footer class="footer-section">
-      <a class="logo-dark-theme logo link" href="./index.html"
-        ><span class="part_logo">Web</span>Studio</a
-      >
+      <div class="container">
+        <a class="logo-dark-theme logo link" href="./index.html"
+          ><span class="part_logo">Web</span>Studio</a
+        >
 
-      <address class="adress-section">
-        <p class="adress_description">г. Киев, пр-т Леси Украинки, 26</p>
-      </address>
-      <ul class="list">
-        <li>
-          <a class="contact-inf-item_dark link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-inf-item_dark link" href="tel:+380961111111"
-            >+380961111111</a
-          >
-        </li>
-      </ul>
+        <address class="adress-section">
+          <p class="adress_description">г. Киев, пр-т Леси Украинки, 26</p>
+        </address>
+        <ul class="list">
+          <li>
+            <a class="mail-inf-link_dark link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="tel-inf-link_dark link" href="tel:+380961111111"
+              >+380961111111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
