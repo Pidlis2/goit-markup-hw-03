@@ -119,8 +119,9 @@ body {
 header .container {
   display: flex;
   align-items: center;
+}
+header {
   border-bottom: 1px solid #ECECEC;
-  
 }
 
 .nav-list {
@@ -298,6 +299,7 @@ padding: 30px 0px;
   font-size: var(--secondary_font-size);
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 /*=======end our team=====*/
@@ -331,6 +333,10 @@ padding: 30px 0px;
 
 /*!!!!!!!!!Portfolio!!!!!!!*/
 
+.section-portfolio{
+  padding: var(--main-retreat) 0;
+}
+
 /*====portfolio buttons====*/
 .products-button {
   font-family: inherit;
@@ -352,8 +358,8 @@ padding: 30px 0px;
 .products-buttons-list{
   display: flex;
   justify-content:center;
-    margin-top: var(--main-retreat);
-    margin-bottom: var(--first-retreat);
+  margin-bottom: var(--first-retreat);
+
   
 }
 .products-buttons-item:not(:first-child){
@@ -379,13 +385,14 @@ padding: 30px 0px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-bottom: var(--main-retreat);
+  margin-top: -30px;
   
 }
 .products-card-item{
   margin-left:var(--seсondary-retreat);
   flex-basis: calc(100%/ 3 - 30px);
-  margin-bottom: var(--seсondary-retreat);
+  margin-top: var(--seсondary-retreat);
+
 }
 .product-card-wrap{
   border: 1px solid #EEEEEE;
